@@ -5,7 +5,7 @@
   { "label": "Add Text 'Hi'", "command": "shape;text=Hi" },
   { "label": "Reset Shape", "command": "shape;reset" },
   { "label": "Make Shape Red", "command": "shape;background-color=red" },
-  { "label": "Increase Shape Size", "command": "shape;width=100px;height=100px" },
+  { "label": "Increase Shape Size", "command": "shape;transform=scale(1.5)" },
   { "label": "Add Border to Shape", "command": "shape;border=2px solid black" },
   { "label": "Make Shape Transparent", "command": "shape;opacity=0.5" },
   { "label": "Add Shadow to Shape", "command": "shape;box-shadow=5px 5px 10px gray" },
@@ -34,5 +34,6 @@
   { "label": "Make Shape Semi-Transparent", "command": "shape;opacity=0.7" },
   { "label": "Add Curved Corners", "command": "shape;border-radius=15px" },
   { "label": "Set Shape's Font to Bold", "command": "shape;font-weight=bold" },
-  { "label": "Add Gradient Background", "command": "shape;background=linear-gradient(to right, red, yellow)" }
+  { "label": "Add Gradient Background", "command": "shape;background=linear-gradient(to right, red, yellow)" },
+  { "label": "Add Gradient Background to page", "command": "background;background-color=linear-gradient(to right, red, yellow)" }
 ]
